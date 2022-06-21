@@ -147,3 +147,14 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+@media (min-width: 768px)
+{
+    .subcontent-heading{
+        font-size: 3vw;
+
+    }
+    .subcontent-para{
+        font-size: 2vw;
+    }
+}
