@@ -1,9 +1,4 @@
-const hamburger = document.querySelector(".hamburger");  
-const navsub = document.querySelector(".nav-items");  
-hamburger.addEventListener('click', () => {  
- hamburger.classList.toggle("change")  
- navsub.classList.toggle("nav-change")  
-});  
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
