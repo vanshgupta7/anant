@@ -47,10 +47,11 @@
 }
 
 .subcontent-para{
-    margin: 0 100px;
+    /* margin: 0 100px; */
     margin-bottom: 30px;
     font-size: 20px;
     font-weight: lighter;
+    /* text-align: center; */
 }
 * {box-sizing:border-box}
 
@@ -151,11 +152,8 @@
 
 @media (max-width: 768px)
 {
-    .subcontent-heading{
-        font-size: 3vw;
-
+    .subcontent{
+        text-align: left;
     }
-    .subcontent-para{
-        font-size: 2vw;
-    }
+    
 }
