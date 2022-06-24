@@ -3,8 +3,8 @@ const createFooter = () => {
     footer.innerHTML=`
     <div class="content">
             <div class="content-1">
-                <h1 class="content-header">Team Anant</h1><br>
-                <h2 class="content-subheader">BITS Pilani</h3><br>
+                <div class="content-header">Team Anant</div><br>
+                <div class="content-subheader">BITS Pilani</div><br>
                 <a href="mailto:anant_coordinator@pilani.bits-pilani.ac.in" target="_blank" 
                     class="footer-email">
                     <i class="fa-regular fa-envelope"></i>
@@ -22,7 +22,7 @@ const createFooter = () => {
                 </div>
             </div> -->
             <div class="content-3">
-                <h1 class="content-header">Our Pages</h1><br>
+                <div class="content-header">Our Pages</div><br>
                 <div class="content-3links">
                     <a href="https://m.facebook.com/219800068200346/"><i class="fa-brands fa-facebook-f"></i></a>
                     <a href="https://instagram.com/teamanantbits?utm_medium=copy_link">

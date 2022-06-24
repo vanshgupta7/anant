@@ -17,6 +17,7 @@ footer{
     font-size: 30px;
 }
 .content-header, .content-subheader{
+    font-weight: bold;
     text-align: center;
     color: wheat;
     font-family: 'Inconsolata', monospace;
@@ -72,6 +73,6 @@ footer i{
 @media (max-width: 768px){
 
     *{
-        font-size: 10px;
+        font-size: 3vw;
     }
 }

@@ -46,10 +46,14 @@ p{
 .main a:visited{
     color: blue;
 }
-@media (min-width: 768px)
+@media (max-width: 768px)
     {
-      .sponsor-heading
-      {
-        font-size: 3vw;
+      .sponsor-heading{
+          font-size: 7vw;
       }
+      a
+      {
+        font-size: 5vw;
+      }
+
     }
